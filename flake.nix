@@ -17,6 +17,7 @@
       anthropic
       pyyaml
       rich
+      pypdf
     ]);
   in
   {
@@ -27,7 +28,8 @@
         echo "Claude Dialogue Runner"
         echo "  python  $(python --version)"
         echo "  anthropic $(python -c 'import anthropic; print(anthropic.__version__)')"
-        echo "  rich    $(python -c 'import rich; print(rich.__version__)')"
+        RICH_VER=$(python -c 'from importlib.metadata import version; print(version("rich"))')
+        echo "  rich    $RICH_VER"
       '';
     };
   };

@@ -1,0 +1,14 @@
+dialogue:
+  opening_message: "Is mathematics discovered or invented? Give your opening position."
+  turns: 8
+
+agents:
+  - name: Platonist
+    model: claude-opus-4-5
+    identity: "You are a committed Platonist philosopher. Mathematical objects exist
+      independently of human minds and physical reality. Be concise — 3 sentences max."
+
+  - name: Formalist
+    model: claude-sonnet-4-5
+    identity: "You are a strict formalist. Mathematics is a game of symbols with
+      no inherent meaning. Be concise — 3 sentences max. Respond directly to what was just said."
