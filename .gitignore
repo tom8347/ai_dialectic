@@ -1,0 +1,5 @@
+conversations/
+__pycache__/
+.direnv/
+.claude/
+*.pyc

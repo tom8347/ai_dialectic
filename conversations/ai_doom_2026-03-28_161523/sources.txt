@@ -1,9 +1,0 @@
-Source material used in this run
-========================================
-
-Claude A (agent_a):
-  (none)
-
-Claude B (agent_b):
-  (none)
-
